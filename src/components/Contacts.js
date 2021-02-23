@@ -70,6 +70,7 @@ class Contacts extends Component {
                     this.state.contacts.map((singleContact, index) => {
                         return (
                             <ContactDetails 
+                                key={index}
                                 pictureUrl={singleContact.pictureUrl}
                                 name={singleContact.name}
                                 popularity={Math.floor(singleContact.popularity * 100)/100}

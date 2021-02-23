@@ -16,7 +16,7 @@ function ContactDetails(props) {
                     <td><img src={props.pictureUrl}/></td>
                     <td>{props.name}</td>
                     <td>{props.popularity}</td>
-                    <td><button class="delBtn" onClick={() => {
+                    <td><button className="delBtn" onClick={() => {
                     props.onDelete(props.id)
                 }}>Delete</button></td>
                 </tr>
