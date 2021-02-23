@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+img{
+  height: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
+  width: 100px;
+}
+td {
+  border-top: 1px solid lightgray;
+}
+
+button {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.delBtn {
+  background-color: red;
+  color: white;
+}
